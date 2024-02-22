@@ -9,3 +9,7 @@ class ChannelData:
         self.avatar = data.get("user", {}).get("profile_pic")
         self.followers = data.get("followersCount")
         self.playback = data.get("playback_url")
+        try:
+            self.livestream = data.get("livestream", {}).get("is_live")
+        except:
+            self.livestream = False
