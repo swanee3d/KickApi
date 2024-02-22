@@ -27,6 +27,7 @@ print("Bio:", channel.bio)
 print("Avatar URL:", channel.avatar)
 print("Followers:", channel.followers)
 print("Playback URL:", channel.playback)
+print("livestream:", channel.livestream)
 ```
 
 ### Fetch Video Data
